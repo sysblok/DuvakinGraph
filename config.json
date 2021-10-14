@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "Граф связей персоналий первой половины 20 века, выделенных из интервью, которые были взяты кандидатом филологических наук, доцентом филологического факультета ИФЛИ-МГУ В. Д. Дувакиным во второй половине 1960-х\nСебеседники В. Д. Дувакина выделены на графе большим шрифтом:\nШкловский Виктор Борисович;\nЯкобсон Роман Осипович;\nВольпин Михаил Давыдович;\nАрдов Виктор Ефимович;\nБажанов Иван Николаевич;\nПлятт Ростислав Янович;\nТышлер Александр Григорьевич;\nЛанг Евгения Александровна;\nВиноградов Николай Дмитриевич;\nНюренберг Амшей Маркович;\nСосинская Ариадна Викторовна;\nСосинский Владимир Брониславович;\nГуро Екатерина Генриховна",
+    "title": "Дувакин Graph"
+  },
+  "legend": {
+    "edgeLabel": "Связь между людьми (знакомство, дружба, роман, переписка, встреча)",
+    "colorLabel": "Каждый цвет обозначает сообщество людей, объединенных по наибольшему количеству связей между собой",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
